@@ -26,7 +26,7 @@ pnpm i
 pnpm dev
 ```
 
-> recommanded
+> recommended
 
 .vscode/settings.json
 
