@@ -10,6 +10,7 @@ pnpm 6.20.4
 - vue-router
 - pinia
 - naive-ui
+- tailwindCSS
 
 - husky
 - commitlint

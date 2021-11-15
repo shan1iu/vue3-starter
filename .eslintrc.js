@@ -12,9 +12,15 @@ module.exports = {
 			jsx: true
 		}
 	},
-	extends: ['eslint:recommended', 'plugin:vue/vue3-recommended', 'prettier'],
+	extends: [
+		'eslint:recommended',
+		'plugin:vue/vue3-recommended',
+		'prettier',
+		'plugin:tailwindcss/recommended'
+	],
 	rules: {
 		'vue/multi-word-component-names': 'off',
 		'vue/script-setup-uses-vars': 'error'
-	}
+	},
+	plugins: ['tailwindcss']
 }
